@@ -1,0 +1,45 @@
+
+.animate-card {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.animate-card img {
+    max-width: calc(100% - 20px);
+    transition: opacity 2s ease-in-out;
+    border-radius: 6px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: auto;
+    right: auto;
+    bottom: 0;
+}
+
+
+.card-fade {
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #0000008a;
+    position: relative;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.card-fade img{
+    max-width: calc(100% - 20px);
+    transition: opacity 200ms ease-in-out;
+    border-radius: 6px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: auto;
+    right: auto;
+    bottom: 0;
+}

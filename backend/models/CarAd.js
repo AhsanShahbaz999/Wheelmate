@@ -1,0 +1,46 @@
+const mongoose = require('mongoose');
+
+const carAdSchema = new mongoose.Schema({
+  make: String,
+  model: String,
+  variant: String,
+  year: String,
+  reg_city: String,
+  city: String,
+  engine_type: String,
+  engine_capacity: String,
+  assembly: String,
+  transmission: String,
+  mileage: String,
+  bodytype: String,
+  color: String,
+  price: String,
+  seller_name: String,
+  seller_phone: String,
+  description: String,
+  created_at: String,
+  username: String,
+  // boolean features
+  airbags: Boolean,
+  airconditioner: Boolean,
+  alloywheels: Boolean,
+  antilockbreakingsystem: Boolean,
+  coolbox: Boolean,
+  cupholders: Boolean,
+  foldingrearseat: Boolean,
+  immobilizer: Boolean,
+  powerdoorlocks: Boolean,
+  powersteering: Boolean,
+  powerwindows: Boolean,
+  powermirrors: Boolean,
+  rearwiper: Boolean,
+  tractioncontrol: Boolean,
+  rearseatent: Boolean,
+  climatecontrol: Boolean,
+  rearacvents: Boolean,
+  frontspeaker: Boolean,
+  rearspeaker: Boolean,
+  armrests: Boolean
+});
+
+module.exports = mongoose.model('CarAd', carAdSchema);

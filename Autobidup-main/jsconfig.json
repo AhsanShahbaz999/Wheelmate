@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "src/**/*"
+, "pages/travel/Auction"  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}

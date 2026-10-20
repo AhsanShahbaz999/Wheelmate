@@ -1,0 +1,14 @@
+export { default as TravelLandingHero } from './TravelLandingHero';
+// export { default as TravelLandingSummary } from './TravelLandingSummary';
+export { default as TravelLandingIntroduce } from './TravelLandingIntroduce';
+export { default as TravelLandingIntroduceOurServices } from './TravelLandingIntroduceOurServices';
+// export { default as TravelLandingToursByCity } from './TravelLandingToursByCity';
+// export { default as TravelLandingTourFeatured } from './TravelLandingTourFeatured';
+export { default as TravelLandingFavoriteDestinations } from './TravelLandingFavoriteDestinations';
+export { default as TravelLandingfull } from './TravelLandingfull';
+export { default as TravelLandingCars } from './TravelLandingCars';
+// export { default as TravelLandingBrands } from './TravelLandingBrands';
+// export { default as TravelLandingCompanies} from './TravelLandingCompanies';
+// export { default as LatestPosts } from './LatestPosts.js';
+export { default as LatestPosts2 } from './LatestPosts2.js';
+export { default as Pageimage } from './pageimage.js';
